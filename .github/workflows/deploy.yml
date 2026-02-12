@@ -70,7 +70,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           bucket: hui-custom-action-hosting
-          dist-folder: ./dist
+          dist_folder: ./dist
           bucket_region: ap-southeast-1
       - name: Output information
         run: |

@@ -8,7 +8,7 @@ inputs:
     description: 'The region of the S3 bucket.'
     required: false
     default: ap-southeast-1
-  dist-folder:
+  dist_folder:
     description: 'Name of Deploy File Folder'
     required: true
 outputs:
