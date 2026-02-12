@@ -11,6 +11,9 @@ inputs:
   dist-folder:
     description: 'Name of Deploy File Folder'
     required: true
+outputs:
+  website-url:
+  description: 'URL of the Website'
 runs:
   using: node20
   main: main.js
