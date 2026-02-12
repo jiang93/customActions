@@ -13,7 +13,7 @@ inputs:
     required: true
 outputs:
   website-url:
-  description: 'URL of the Website'
+    description: 'URL of the Website'
 runs:
   using: node20
   main: main.js
